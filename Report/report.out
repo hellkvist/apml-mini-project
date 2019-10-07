@@ -2,3 +2,8 @@
 \BOOKMARK [1][-]{section.2}{Modeling \(Q1-Q3\)}{}% 2
 \BOOKMARK [1][-]{section.3}{Gibbs Sampling \(Q4\)}{}% 3
 \BOOKMARK [1][-]{section.4}{Assumed Density Filtering and Predictions \(Q5-Q6\)}{}% 4
+\BOOKMARK [1][-]{section.5}{Factor Graphs and Message-Passing \(Q7-Q8\)}{}% 5
+\BOOKMARK [1][-]{section.6}{My Own Data \(Q9\)}{}% 6
+\BOOKMARK [1][-]{section.7}{Open-ended Project Extension \(Q10\)}{}% 7
+\BOOKMARK [2][-]{subsection.7.1}{Reverse Chronological Order of the SerieA Dataset}{section.7}% 8
+\BOOKMARK [2][-]{subsection.7.2}{Derivation of the Message Passing Protocol for the Factor Graph in Figure 4}{section.7}% 9

@@ -16,22 +16,39 @@
 \gdef\HyperFirstAtBeginDocument#1{#1}
 \providecommand\HyField@AuxAddToFields[1]{}
 \providecommand\HyField@AuxAddToCoFields[2]{}
-\@writefile{toc}{\contentsline {section}{\numberline {1}Outline}{1}{section.1}}
-\@writefile{toc}{\contentsline {section}{\numberline {2}Modeling (Q1-Q3)}{1}{section.2}}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Outline}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Modeling (Q1-Q3)}{1}{section.2}\protected@file@percent }
 \newlabel{sec:modeling}{{2}{1}{Modeling (Q1-Q3)}{section.2}{}}
-\newlabel{eqn:model}{{1a}{1}{Modeling (Q1-Q3)}{equation.2.1}{}}
-\citation{MATHWORLDWOLFRAM.COM}
-\citation{asdf1337}
-\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A Bayesian network of the model in \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eqn:model}\unskip \@@italiccorr )}}.}}{2}{figure.1}}
+\newlabel{eqn:model}{{1}{1}{Modeling (Q1-Q3)}{equation.2.4}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces A Bayesian network of the model in \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eqn:model}\unskip \@@italiccorr )}}.}}{2}{figure.1}\protected@file@percent }
 \newlabel{fig:bayes_n}{{1}{2}{A Bayesian network of the model in \eqref {eqn:model}}{figure.1}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {3}Gibbs Sampling (Q4)}{2}{section.3}}
-\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Samples of the variables $ s_1,s_2,t $ for 200 Gibbs sampler iterations.}}{3}{figure.2}}
-\newlabel{fig:q_4_1}{{2}{3}{Samples of the variables $ s_1,s_2,t $ for 200 Gibbs sampler iterations}{figure.2}{}}
-\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Histograms of the samples (post burn-in) and the estimated posteriors for different values of $K$. The mean and standard deviation of the posteriors were estimated as the empirical mean and standard deviation of the samples from the Gibbs sampler.}}{3}{figure.3}}
+\@writefile{toc}{\contentsline {section}{\numberline {3}Gibbs Sampling (Q4)}{2}{section.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces \relax \fontsize  {9}{10}\selectfont  {Samples of the variables $ s_1,s_2,t $ for 100 Gibbs sampler iterations.}}}{2}{figure.2}\protected@file@percent }
+\newlabel{fig:q_4_1}{{2}{2}{\footnotesize {Samples of the variables $ s_1,s_2,t $ for 100 Gibbs sampler iterations.}}{figure.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {4}Assumed Density Filtering and Predictions (Q5-Q6)}{3}{section.4}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Histograms of the samples (post burn-in) and the estimated posteriors for different values of $K$. The mean and standard deviation of the posteriors were estimated as the empirical mean and standard deviation of the samples from the Gibbs sampler.}}{3}{figure.3}\protected@file@percent }
 \newlabel{fig:q_4_2}{{3}{3}{Histograms of the samples (post burn-in) and the estimated posteriors for different values of $K$. The mean and standard deviation of the posteriors were estimated as the empirical mean and standard deviation of the samples from the Gibbs sampler}{figure.3}{}}
-\@writefile{toc}{\contentsline {section}{\numberline {4}Assumed Density Filtering and Predictions (Q5-Q6)}{3}{section.4}}
-\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Sample figure caption.}}{3}{figure.4}}
-\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Mean, variance and conservative estimate of each team's skill after all matches simulated in two different orders.}}{4}{table.1}}
-\newlabel{tab:q4}{{1}{4}{Mean, variance and conservative estimate of each team's skill after all matches simulated in two different orders}{table.1}{}}
-\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Sample table title}}{4}{table.2}}
-\newlabel{sample-table}{{2}{4}{Sample table title}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {5}Factor Graphs and Message-Passing (Q7-Q8)}{3}{section.5}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Factor graph of the model in \textup  {\hbox {\mathsurround \z@ \normalfont  (\ignorespaces \ref  {eqn:model}\unskip \@@italiccorr )}}.}}{3}{figure.4}\protected@file@percent }
+\newlabel{fig:factor_graph}{{4}{3}{Factor graph of the model in \eqref {eqn:model}}{figure.4}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Mean, variance and conservative estimate of each team's skill after all match data was used. Final rankings are generated using Gibbs sampling and message passing, respectively. Initial values for all teams were set to $ \mu =25, \sigma =25/3 $ and the result variance was also set to $ \sigma _t=25/3 $. }}{4}{table.1}\protected@file@percent }
+\newlabel{tab:q4}{{1}{4}{Mean, variance and conservative estimate of each team's skill after all match data was used. Final rankings are generated using Gibbs sampling and message passing, respectively. Initial values for all teams were set to $ \mu =25, \sigma =25/3 $ and the result variance was also set to $ \sigma _t=25/3 $}{table.1}{}}
+\newlabel{eqn:posterior_MP}{{8}{4}{Factor Graphs and Message-Passing (Q7-Q8)}{equation.5.8}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces \relax \fontsize  {9}{10}\selectfont  {Posterior distributions of $ s_1 $ and $ s_2 $ after simulating one match where player 1 wins ($ y=1 $). The posteriors from Gibbs sampling and message passing (MP) are different from each other.} }}{4}{figure.5}\protected@file@percent }
+\newlabel{fig:gibbs_mp_compare}{{5}{4}{\footnotesize {Posterior distributions of $ s_1 $ and $ s_2 $ after simulating one match where player 1 wins ($ y=1 $). The posteriors from Gibbs sampling and message passing (MP) are different from each other.}}{figure.5}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}My Own Data (Q9)}{5}{section.6}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Mean, variance and conservative estimate of each team's skill after all matches simulated in reverse order.}}{5}{table.2}\protected@file@percent }
+\newlabel{tab:shl}{{2}{5}{Mean, variance and conservative estimate of each team's skill after all matches simulated in reverse order}{table.2}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {7}Open-ended Project Extension (Q10)}{5}{section.7}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Grid search results of finding a $ \sigma _t $ to get a higher prediction rate.}}{6}{figure.6}\protected@file@percent }
+\newlabel{fig:grid_search}{{6}{6}{Grid search results of finding a $ \sigma _t $ to get a higher prediction rate}{figure.6}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Grid search of threshold values $\tau $ to find a high correct prediction rate.}}{6}{figure.7}\protected@file@percent }
+\newlabel{fig:grid_tau}{{7}{6}{Grid search of threshold values $\tau $ to find a high correct prediction rate}{figure.7}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.1}Reverse Chronological Order of the SerieA Dataset}{6}{subsection.7.1}\protected@file@percent }
+\newlabel{app:reverse_gibbs}{{7.1}{6}{Reverse Chronological Order of the SerieA Dataset}{subsection.7.1}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {7.2}Derivation of the Message Passing Protocol for the Factor Graph in Figure \ref  {fig:factor_graph}}{6}{subsection.7.2}\protected@file@percent }
+\newlabel{app:message_passing}{{7.2}{6}{Derivation of the Message Passing Protocol for the Factor Graph in Figure \ref {fig:factor_graph}}{subsection.7.2}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Mean, variance and conservative estimate of each team's skill after all matches simulated in reverse order.}}{7}{table.3}\protected@file@percent }
+\newlabel{tab:q4_rev}{{3}{7}{Mean, variance and conservative estimate of each team's skill after all matches simulated in reverse order}{table.3}{}}
+\newlabel{message:sw_s1}{{9j}{7}{Derivation of the Message Passing Protocol for the Factor Graph in Figure \ref {fig:factor_graph}}{equation.7.10}{}}
+\newlabel{message:sw_s2}{{9k}{7}{Derivation of the Message Passing Protocol for the Factor Graph in Figure \ref {fig:factor_graph}}{equation.7.11}{}}
